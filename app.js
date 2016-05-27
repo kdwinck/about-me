@@ -1,4 +1,4 @@
-var questionOne = prompt("Was I born in North Dakota?").toLowerCase();
+var questionOne = prompt("Was I born in North Dakota? (Please answer yes or no)").toLowerCase();
 
 if (questionOne === 'no' || questionOne === "n") {
   alert("Good Job! You're off to a good start.");
@@ -8,7 +8,7 @@ if (questionOne === 'no' || questionOne === "n") {
   alert("That was not a valid response. You still get it wrong!");
 }
 
-var questionTwo = prompt("Is one of my favorite pastimes skateboarding?").toLowerCase();
+var questionTwo = prompt("Is one of my favorite pastimes skateboarding? (Please answer yes or no)").toLowerCase();
 
 if (questionTwo === 'yes' || questionTwo === "y") {
   alert("Correct! I once broke both bones in my left arm at the same time!");
@@ -18,7 +18,7 @@ if (questionTwo === 'yes' || questionTwo === "y") {
   alert("That was not a valid response. You still get it wrong!");
 }
 
-var questionThree = prompt("Do I own a lot of board games?").toLowerCase();
+var questionThree = prompt("Do I own lots of board games? (Please answer yes or no)").toLowerCase();
 
 if (questionThree=== 'yes' || questionThree === "y") {
   alert("Yes! I own many board games. My favorite one is Arkham Horror!");
@@ -28,7 +28,7 @@ if (questionThree=== 'yes' || questionThree === "y") {
   alert("That was not a valid response. You still get it wrong!");
 }
 
-var questionFour = prompt("Have I ever met a celebrity?").toLowerCase();
+var questionFour = prompt("Have I ever met a celebrity? (Please answer yes or no)").toLowerCase();
 
 if (questionFour=== 'yes' || questionFour === "y") {
   alert("Great work! I once met Prince on a plane!");
