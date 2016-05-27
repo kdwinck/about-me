@@ -1,0 +1,22 @@
+* {
+  font-family: fantasy;
+  color: white;
+}
+
+body {
+  background-color: gray;
+}
+
+.favorites {
+  border-color: 2px solid black;
+  text-align: center;
+}
+
+article {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.quiz {
+  text-align: left;
+}
