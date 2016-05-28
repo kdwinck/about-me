@@ -1,81 +1,80 @@
 * {
-  font-family: consolas;
-  color: white;
+  color       : white;
+  font-family : consolas;
 }
 
 body {
-  background-color: white;
+  background-color : white;
 }
 
-header{
-  margin-bottom: 25px;
+header {
+  margin-bottom : 25px;
 }
 
 div {
-  background-color: #15a9f2;
-  height: 25px;
+  height           : 25px;
+  background-color : #15a9f2;
 }
 
 .split {
-  background-color: #1f2a78;
-  height: 25px;
-  float: left;
-  width: 70%;
-  padding-right: 30px;
-  margin-bottom: 25px;
+  width            : 70%;
+  height           : 25px;
+  float            : left;
+  margin-bottom    : 25px;
+  padding-right    : 30px;
+  background-color : #1f2a78;
 }
 
 header h1 {
-  background-color: #1f2a78;
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  margin: 0px;
+  margin           : 0px;
+  color            : white;
+  background-color : #1f2a78;
+  text-align       : center;
+  font-size        : 50px;
 }
 
 .bio {
-  padding: 15px;
-  font-size: 20px;
-  margin-bottom: 25px;
-  width: 70%;
-  float: left;
-  background-color: #15a9f2;
-  text-indent: 20px;
+  width            : 70%;
+  float            : left;
+  margin-bottom    : 25px;
+  padding          : 15px;
+  background-color : #15a9f2;
+  text-indent      : 20px;
+  font-size        : 20px;
 }
 
 .favorites {
-  background-color: #15a9f2;
-  float: right;
-  width: 25%;
+  width            : 25%;
+  float            : right;
+  background-color : #15a9f2;
 }
 
 h3 {
-  color: #ffe70a;
-  text-align: center;
-  font-size: 25px;
+  color      : #ffe70a;
+  text-align : center;
+  font-size  : 25px;
 }
 
 article {
-  text-align: left;
+  text-align : left;
 }
 
 ul {
-  padding-left: 80px;
-  font-size: 18px;
+  padding-left : 80px;
+  font-size    : 18px;
 }
 
 .quiz {
-  float: left;
-  padding: 15px;
-  background-color: #15a9f2;
-  width: 70%;
+  width            : 70%;
+  float            : left;
+  padding          : 15px;
+  background-color : #15a9f2;
 }
 
 h2 {
-  color: #ffe70a;
+  color : #ffe70a;
 }
 
 p {
-  color: white;
-  text-size: 30px;
+  color : white;
 }
