@@ -7,7 +7,8 @@ var questionOne = function() {
   } else if (answerOne === 'yes' || answerOne === "y") {
     alert("You're wrong " + userName + "! I was born in South Dakota.");
   } else {
-    alert("That was not a valid response. You still get it wrong!");
+    alert("Please input a valid response. (y)es or (n)o");
+    questionOne();
   }
 };
 
@@ -18,7 +19,8 @@ var questionTwo = function() {
   } else if (answerTwo === 'no' || answerTwo === "n") {
     alert("Wrong! I don't skate as much anymore but I still love to ride around.");
   } else {
-    alert("That was not a valid response " + userNamer + ". You still get it wrong!");
+    alert("Please input a valid response. (y)es or (n)o");
+    questionTwo();
   }
 };
 
@@ -29,7 +31,8 @@ var questionThree = function() {
   } else if (answerThree === 'no' || answerThree === "n") {
     alert("Wrong " + userName + "! I have a whole bookshelf full of them!");
   } else {
-    alert("That was not a valid response. You still get it wrong" + userName + "!");
+    alert("Please input a valid response. (y)es or (n)o");
+    questionThree();
   }
 };
 
@@ -40,7 +43,8 @@ var questionFour = function() {
   } else if (answerFour === 'no' || answerFour === "n") {
     alert("Incorrect " + userName+ ". You will have to get it right to see who it was!");
   } else {
-    alert("That was not a valid response. You still get it wrong!");
+    alert("Please input a valid response. (y)es or (n)o");
+    questionFour();
   }
 };
 
