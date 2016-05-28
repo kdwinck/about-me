@@ -71,8 +71,24 @@ var questionFive = function() {
   }
 };
 
+var questionSix = function() {
+  answers = ["lost in translation", "tron", "steve jobs"];
+  var guesses = 6;
+  while (guesses > 0) {
+    var answerSix = prompt("What is one of my favorite movies?").toLowerCase();
+    if (answers.indexOf(answerSix) !== -1) {
+      alert("Wow " + userName + "! Great Job");
+      guesses = 0;
+      score ++;
+    } else {
+      alert("Try again!");
+      guesses --;
+    }
+  }
+};
+
 var displayScore = function() {
-  alert("Your score was " + score + " out of 5. How did you do " + userName + "?");
+  alert("Your score was " + score + " out of 6. How did you do " + userName + "?");
 };
 
 var main = function() {
@@ -81,6 +97,7 @@ var main = function() {
   questionThree();
   questionFour();
   questionFive();
+  questionSix();
   displayScore();
 };
 
