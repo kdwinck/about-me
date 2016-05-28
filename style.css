@@ -4,44 +4,65 @@
 }
 
 body {
-  background-color: #15a9f2;
+  background-color: white;
 }
 
-/*header{
-  position: fixed;
-}*/
+header{
+  margin-bottom: 25px;
+}
+
+div {
+  background-color: #15a9f2;
+  height: 25px;
+}
 
 header h1 {
-  background-color: #1b1da6;
+  background-color: #1f2a78;
   text-align: center;
   color: white;
   font-size: 50px;
-  text-decoration: underline;
-  border: 2px solid black;
+  margin: 0px;
 }
 
 .bio {
+  padding: 15px;
   font-size: 25px;
   margin-bottom: 50px;
   width: 70%;
-  border: 2px solid black;
   float: left;
+  background-color: #15a9f2;
 }
 
 .favorites {
-  border: 2px solid black;
   text-align: center;
-  background-color: rgb(55, 59, 51);
+  background-color: #15a9f2;
   float: right;
   width: 25%;
 }
 
 h3 {
-  color: #ffe600;
+  color: #ffe70a;
+  text-align: center;
 }
 
 article {
-  margin-left: 50px;
-  text-align: left;*/
+  text-align: left;
+}
+
+ul {
+  padding-left: 80px;
+}
+
+.quiz {
+  float: left;
+  padding: 10px 25px 10px 25px;
   border: 2px solid black;
+}
+
+h2 {
+  color: black;
+}
+
+.quiz p {
+  color: black;
 }
