@@ -53,8 +53,26 @@ var questionFour = function() {
   }
 };
 
+var questionFive = function() {
+  var guesses = 4;
+  while (guesses > 0) {
+    var answerFive = parseInt(prompt("What is my favorite number?"));
+    if (answerFive > 17) {
+      alert("Your guess was too high.");
+      guesses --;
+    } else if (answerFive < 17) {
+      alert("Your guess is too low.");
+      guesses --;
+    } else if (answerFive === 17) {
+      alert("Correct!");
+      guesses = 0;
+      score ++;
+    }
+  }
+};
+
 var displayScore = function() {
-  alert("Your score was " + score + " out of 4. How did you do " + userName + "?");
+  alert("Your score was " + score + " out of 5. How did you do " + userName + "?");
 };
 
 var main = function() {
@@ -62,6 +80,7 @@ var main = function() {
   questionTwo();
   questionThree();
   questionFour();
+  questionFive();
   displayScore();
 };
 
