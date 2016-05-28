@@ -1,38 +1,47 @@
 * {
-  font-family: fantasy;
+  font-family: consolas;
   color: white;
 }
 
 body {
-  background-color: gray;
+  background-color: #15a9f2;
 }
+
+/*header{
+  position: fixed;
+}*/
 
 header h1 {
+  background-color: #1b1da6;
   text-align: center;
-  color: black;
-  font-size: 60px;
+  color: white;
+  font-size: 50px;
   text-decoration: underline;
+  border: 2px solid black;
 }
 
-header p {
+.bio {
   font-size: 25px;
   margin-bottom: 50px;
+  width: 70%;
+  border: 2px solid black;
+  float: left;
 }
 
 .favorites {
   border: 2px solid black;
   text-align: center;
   background-color: rgb(55, 59, 51);
-  padding: 40px;
+  float: right;
+  width: 25%;
+}
+
+h3 {
+  color: #ffe600;
 }
 
 article {
-  display: inline-block;
   margin-left: 50px;
-  text-align: left;
-}
-
-.quiz {
-  text-align: left;
-  padding-top: 50px;
+  text-align: left;*/
+  border: 2px solid black;
 }
