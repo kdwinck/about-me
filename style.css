@@ -16,6 +16,15 @@ div {
   height: 25px;
 }
 
+.split {
+  background-color: #1f2a78;
+  height: 25px;
+  float: left;
+  width: 70%;
+  padding-right: 30px;
+  margin-bottom: 25px;
+}
+
 header h1 {
   background-color: #1f2a78;
   text-align: center;
@@ -26,15 +35,15 @@ header h1 {
 
 .bio {
   padding: 15px;
-  font-size: 25px;
-  margin-bottom: 50px;
+  font-size: 20px;
+  margin-bottom: 25px;
   width: 70%;
   float: left;
   background-color: #15a9f2;
+  text-indent: 20px;
 }
 
 .favorites {
-  text-align: center;
   background-color: #15a9f2;
   float: right;
   width: 25%;
@@ -43,6 +52,7 @@ header h1 {
 h3 {
   color: #ffe70a;
   text-align: center;
+  font-size: 25px;
 }
 
 article {
@@ -51,18 +61,21 @@ article {
 
 ul {
   padding-left: 80px;
+  font-size: 18px;
 }
 
 .quiz {
   float: left;
-  padding: 10px 25px 10px 25px;
-  border: 2px solid black;
+  padding: 15px;
+  background-color: #15a9f2;
+  width: 70%;
 }
 
 h2 {
-  color: black;
+  color: #ffe70a;
 }
 
-.quiz p {
-  color: black;
+p {
+  color: white;
+  text-size: 30px;
 }
