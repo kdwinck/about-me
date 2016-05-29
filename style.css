@@ -5,6 +5,7 @@
 
 body {
   background-color : white;
+  position: absolute;
 }
 
 header {
@@ -47,6 +48,7 @@ header h1 {
   width            : 25%;
   float            : right;
   background-color : #15a9f2;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -69,6 +71,8 @@ ul {
   float            : left;
   padding          : 15px;
   background-color : #15a9f2;
+  margin-bottom: 30px;
+  padding: 6px;
 }
 
 h2 {
@@ -77,4 +81,21 @@ h2 {
 
 p {
   color : white;
+  font-size: 18px;
+}
+
+.ten {
+  float: left;
+  padding: 20px;
+  background-color : #15a9f2;
+}
+
+h4 {
+  color : #ffe70a;
+  text-align: center;
+  font-size: 20px;
+}
+
+ol {
+  font-size: 20px;
 }
