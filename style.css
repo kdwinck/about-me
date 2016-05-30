@@ -39,6 +39,7 @@ header h1 {
   float            : left;
   margin-bottom    : 25px;
   padding          : 15px;
+  border-radius    : 40px;
   background-color : #15a9f2;
   text-indent      : 20px;
   font-size        : 20px;
@@ -48,6 +49,7 @@ header h1 {
   width            : 25%;
   float            : right;
   margin-bottom    : 50px;
+  border-radius    : 40px;
   background-color : #15a9f2;
 }
 
@@ -67,11 +69,11 @@ ul {
 }
 
 .quiz {
-  width            : 70%;
+  width            : 71%;
   float            : left;
   margin-bottom    : 30px;
-  padding          : 15px;
-  padding          : 6px;
+  padding-left     : 18px;
+  border-radius    : 40px;
   background-color : #15a9f2;
 }
 
@@ -87,6 +89,7 @@ p {
 .ten {
   float            : left;
   padding          : 20px;
+  border-radius    : 40px;
   background-color : #15a9f2;
 }
 
