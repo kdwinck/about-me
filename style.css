@@ -4,8 +4,8 @@
 }
 
 body {
+  position         : absolute;
   background-color : white;
-  position: absolute;
 }
 
 header {
@@ -47,8 +47,8 @@ header h1 {
 .favorites {
   width            : 25%;
   float            : right;
+  margin-bottom    : 50px;
   background-color : #15a9f2;
-  margin-bottom: 50px;
 }
 
 h3 {
@@ -69,10 +69,10 @@ ul {
 .quiz {
   width            : 70%;
   float            : left;
+  margin-bottom    : 30px;
   padding          : 15px;
+  padding          : 6px;
   background-color : #15a9f2;
-  margin-bottom: 30px;
-  padding: 6px;
 }
 
 h2 {
@@ -80,22 +80,22 @@ h2 {
 }
 
 p {
-  color : white;
-  font-size: 18px;
+  color     : white;
+  font-size : 18px;
 }
 
 .ten {
-  float: left;
-  padding: 20px;
+  float            : left;
+  padding          : 20px;
   background-color : #15a9f2;
 }
 
 h4 {
-  color : #ffe70a;
-  text-align: center;
-  font-size: 20px;
+  color      : #ffe70a;
+  text-align : center;
+  font-size  : 20px;
 }
 
 ol {
-  font-size: 20px;
+  font-size : 20px;
 }
