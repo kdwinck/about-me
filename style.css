@@ -72,12 +72,29 @@ ul {
 }
 
 .quiz {
-  width            : 71%;
-  float            : left;
+  float: left;
+  width: 71%;
   margin-bottom    : 30px;
   padding-left     : 18px;
   border-radius    : 40px;
   background-color : #15a9f2;
+}
+.questions {
+  width: 70%;
+  display: inline;
+  float: left;
+}
+
+.score {
+  display: inline;
+  width: 30%;
+  float: right;
+  height: inherit;
+}
+
+.score p {
+    font-size: 64px;
+    text-align: center;
 }
 
 h2 {

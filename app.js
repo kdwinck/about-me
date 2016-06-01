@@ -2,7 +2,7 @@ var userName = prompt("Identify yourself user."); // This will get the users nam
 var score = 0;
 
 var questions = [
-                  'Was I born in South Dakota?',
+                  'Was I born in North Dakota?',
                   'Is one of my favorite pastimes skateboarding?',
                   'Do I own a lot of board games?',
                   'Have I ever met a celebrity?'
@@ -78,6 +78,8 @@ var questionSix = function() {
 
 var displayScore = function() {
   alert("Your score was " + score + " out of 6. How did you do " + userName + "?");
+  var el = document.getElementById('display-score');
+  el.textContent = 'Score: ' + score;
 };
 
 var main = function() {
