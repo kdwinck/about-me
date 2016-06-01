@@ -4,7 +4,9 @@
 }
 
 body {
-  position         : absolute;
+  width            : 960px;
+  margin-right     : auto;
+  margin-left      : auto;
   background-color : white;
 }
 
@@ -72,29 +74,30 @@ ul {
 }
 
 .quiz {
-  float: left;
-  width: 71%;
+  width            : 71%;
+  float            : left;
   margin-bottom    : 30px;
   padding-left     : 18px;
   border-radius    : 40px;
   background-color : #15a9f2;
 }
+
 .questions {
-  width: 70%;
-  display: inline;
-  float: left;
+  display : inline;
+  width   : 70%;
+  float   : left;
 }
 
 .score {
-  display: inline;
-  width: 30%;
-  float: right;
-  height: inherit;
+  display : inline;
+  width   : 30%;
+  height  : inherit;
+  float   : right;
 }
 
 .score p {
-    font-size: 64px;
-    text-align: center;
+  text-align : center;
+  font-size  : 64px;
 }
 
 h2 {
