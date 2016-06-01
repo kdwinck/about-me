@@ -74,7 +74,13 @@ var questionSix = function() {
       guesses --;
     }
   }
+  var allAnswers = "";
+    for (var i = 0; i < answers.length; i++) {
+      allAnswers += answers[i] + " ,";
+    }
+  alert("The options were " + allAnswers);
 };
+
 
 var displayScore = function() {
   alert("Your score was " + score + " out of 6. How did you do " + userName + "?");
