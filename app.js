@@ -1,4 +1,4 @@
-var userName = prompt("Identify yourself user."); // This will get the users name
+var userName;
 var score = 0;
 
 var questions = [
@@ -17,32 +17,23 @@ var responses = [
                   ['Great work ' + userName + '! I once met Prince on a plane!', 'Incorrect ' + userName+ '. You will have to get it right to see who it was!']
                 ];
 
-for (var i = 0; i < questions.length; i++) {
-  var answer = prompt(questions[i]).toLowerCase();
-  if (answer === answers[i] || answer === answers[i].charAt(0)) {
-    alert(responses[i][0]);
-    score ++;
-  } else {
-    alert(responses[i][1]);
-  }
+function getUserName() {
+  userName = prompt("Identify yourself user."); // This will get the users name
 }
 
-// previously had 4 functions similar to the following -- replaced by loop above
+function askYesNoQuestions() {
+  for (var i = 0; i < questions.length; i++) {
+    var answer = prompt(questions[i]).toLowerCase();
+    if (answer === answers[i] || answer === answers[i].charAt(0)) {
+      alert(responses[i][0]);
+      score ++;
+    } else {
+      alert(responses[i][1]);
+    }
+  }
+};
 
-// var questionOne = function() {
-//   var answerOne = prompt("Was I born in North Dakota? (Please answer yes or no)").toLowerCase();
-//   if (answerOne === 'no' || answerOne === "n") {
-//     alert("Good Job " + userName + "! You're off to a good start.");
-//     score ++;
-//   } else if (answerOne === 'yes' || answerOne === "y") {
-//     alert("You're wrong " + userName + "! I was born in South Dakota.");
-//   } else {
-//     alert("Please input a valid response. (y)es or (n)o");
-//     questionOne();
-//   }
-// };
-
-var questionFive = function() {
+function questionFive() {
   var guesses = 4;
   while (guesses > 0) {
     var answerFive = parseInt(prompt("What is my favorite number?"));
@@ -60,7 +51,7 @@ var questionFive = function() {
   }
 };
 
-var questionSix = function() {
+function questionSix() {
   answers = ["lost in translation", "tron", "steve jobs"];
   var guesses = 6;
   while (guesses > 0) {
@@ -81,14 +72,15 @@ var questionSix = function() {
   alert("The options were " + allAnswers);
 };
 
-
-var displayScore = function() {
+function displayScore() {
   alert("Your score was " + score + " out of 6. How did you do " + userName + "?");
   var el = document.getElementById('display-score');
   el.textContent = 'Score: ' + score;
 };
 
-var main = function() {
+function main() {
+  getUserName();
+  askYesNoQuestions();
   questionFive();
   questionSix();
   displayScore();
