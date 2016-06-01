@@ -9,7 +9,10 @@ body {
 }
 
 header {
+  width         : 960px;
+  margin-right  : auto;
   margin-bottom : 25px;
+  margin-left   : auto;
 }
 
 div {
