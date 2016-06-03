@@ -116,6 +116,15 @@ p {
   background-color : #15a9f2;
 }
 
+figure {
+  display : inline-block;
+}
+
+figcaption {
+  color     : #15a9f2;
+  font-size : 20px;
+}
+
 h4 {
   color      : #ffe70a;
   text-align : center;
@@ -127,5 +136,5 @@ ol {
 }
 
 ol li:hover {
-  font-size: 25px;
+  font-size : 25px;
 }
