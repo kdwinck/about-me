@@ -125,3 +125,7 @@ h4 {
 ol {
   font-size : 20px;
 }
+
+ol li:hover {
+  font-size: 25px;
+}
