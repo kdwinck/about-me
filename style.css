@@ -116,14 +116,21 @@ p {
   background-color : #15a9f2;
 }
 
-figure {
+.hidden {
   display : inline-block;
+  visibility: hidden;
 }
 
 figcaption {
   color     : #15a9f2;
   font-size : 20px;
 }
+
+.show {
+  display: inline-block;
+  visibility: visible;
+}
+
 
 h4 {
   color      : #ffe70a;

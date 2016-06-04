@@ -82,12 +82,20 @@ function displayScore() {
   el.textContent = 'Score: ' + score;  // update element to display score on page
 };
 
+function bonusPicture() {
+  if (score === 6) {
+    var el = document.getElementById('bonus');
+    el.className = 'show';
+  }
+}
+
 function main() {
   getUserName();
   askYesNoQuestions();
   questionFive();
   questionSix();
   displayScore();
+  bonusPicture();
 };
 
 main();
